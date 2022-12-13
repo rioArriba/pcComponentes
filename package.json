@@ -1,0 +1,22 @@
+{
+  "name": "componentes",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rioArriba/pcComponentes.git"
+  },
+  "author": "Esteban,Mario,Pablo,Wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rioArriba/pcComponentes/issues"
+  },
+  "homepage": "https://github.com/rioArriba/pcComponentes#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
