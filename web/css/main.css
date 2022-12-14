@@ -380,22 +380,19 @@ table {
   border-spacing: 0;
 }
 
-.organizar {
-  display: grid; /*Si no se pone esto la siguiente no funciona */
-  grid-template-areas: "uno" "dos";
+.l-page {
+  display: flex;
+  flex-direction: column;
 }
-
-.uno {
-  grid-area: uno;
+.l-page__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-.dos {
-  grid-area: dos;
-}
-
-.l-productos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
+.l-page__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /* Ejemplo de como acceder a una lista como esta realizado en el padding-value y en el marging-value*/
@@ -476,7 +473,7 @@ ul, ol {
   position: absolute;
   min-width: 160px;
   left: 170px;
-  top: 36px;
+  top: 85px;
 }
 
 .c-nav li:hover > ul {

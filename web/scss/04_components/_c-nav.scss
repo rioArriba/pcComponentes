@@ -30,10 +30,11 @@ ul,ol{
 }
 .c-nav li ul{
     display:none;
-    position: absolute;
+    position:absolute;
     min-width: 160px;
     left:170px;
-    top:36px;
+    top:85px;
+  
 }
 .c-nav li:hover >ul {
     display:block

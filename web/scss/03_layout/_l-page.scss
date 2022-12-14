@@ -1,0 +1,14 @@
+.l-page{
+    display: flex;
+    flex-direction:column;
+   &__header{
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around;
+   }
+   &__footer{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+   }
+}
