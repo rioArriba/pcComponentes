@@ -9,21 +9,47 @@
 
 </head>
 <body>
-    <dialog class="loginUsuario">
-        <div id="dialogHead">
+    <dialog id="loginUsuario" class="shadow-sm	">
+        <div id="loginHead">
             <h2> Iniciar sesion <h2>
         </div>
 
-        <div id="dialogContent">
+        <div id="loginContent">
             <input id="email" name="email" type="text">
             <input id="contrasenya" name="contrasenya" type="password">
         </div>
 
-        <div class="text-center">
+        <div id="loginFooter">
             <button id="btnCierraDialog" class="">Cancelar</button>
             <button id="btnIniciarSesion"class="">Entrar</button>
         </div>
     </dialog>
+
+    <dialog id="detalleProducto">
+        <div id="detalleHead">
+            <img src="./assets/portatil.jpg" alt="articulo">
+        </div>
+
+        <div id="detalleContent">
+            <h3>Nombre del Producto</h3>
+            <p>Descripcion del producto</p>
+            <p>Precio</p>
+        </div>
+
+        <div id="detalleFooter">
+            <button id="btnAnyadirCarrito" class="">Al Carrito</button>
+        </div>
+    </dialog>
+
+    <div class="m-2">
+        <ul class="pagination flex flex-row justify-center gap-4">
+            <li class="rounded-sm px-2 border">Pagina anterior</li>
+            <li class="rounded-sm px-2	border">1</li>
+            <li class="rounded-sm px-2	border">2</li>
+            <li class="rounded-sm px-2	border">3</li>            
+            <li class="rounded-sm px-2	border">Pagina siguiente</li>            
+        </ul>
+    </div>
 
     <h1 class="text-8xl font-bold ">
         Hello world!
