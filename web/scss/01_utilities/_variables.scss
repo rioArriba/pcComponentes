@@ -1,0 +1,36 @@
+$colors:(
+   "gris":(#F7F4F3,#E5E2E1,#C2BDBD,#A8A8A8,#828282,#6C6060,#484141,#1C1717,#050505), 
+   "blanco":(#FFFFFF,#FEFBFB,#FBF9F9,#F8F7F7,#F5F5F5,#F3F2F1,#F3EDEC,#EFECEC,#ECE4E4),
+   "rojo":(#FFF3F0,#FCD5CF,#F8A7A0,#F47871,#EF4343,#EC1A13,#BF1C0D,#911808,#631303)
+);
+
+$paleta_Colores:(
+"principal":(#E6F4FE,#B8DDF5,#90C8E4,#67B1D0,#409FBF,#2F8198,#1C6473,#0A3F47,#011719),
+"alternativo":(#FEF0E6,#FCCDB0,#F9A57B,#F67741,#F4450B,#BE3009,#891C06,#4F0D03,#190301)
+);
+ 
+$padding-value:(0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px);
+$margin-value:(0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px,);
+//Aqui no lo modificaria con el for i porque quiero acceder a la lista con la clave -valor como lo tengo realizado
+$font-size-value:(
+   "2xs":10px,
+   "xs":12px,
+   "s":14px,
+   "m":16px,
+   "l":18px,
+   "xl":20px,
+   "2xl":24px,
+   "3xl":30px,
+   "4xl":36px,
+   "5xl":48px,
+   "6xl":64px,
+);
+
+/* Ejemplo de como acceder a una lista como esta realizado en el padding-value y en el marging-value*/
+$lista:(10px,12px,20px,40px);
+$indice:1;
+$valor:nth($lista,$indice);
+
+$border-radius-value:(0px,2px,4px,6px,8px,16px);
+
+$shadow-value:("0 1px 3px hsla(0,0%,.2)","0 4px 6px hsla(0,0%,.2)","0 5px 15px hsla(0,0%,.2)","0 10px 24px hsla(0,0%,.2)"," 0 15px 35px hsla(0,0%,.2)");

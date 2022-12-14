@@ -1,0 +1,38 @@
+//sin el el getPaddingKeys @for $i from 0 to length($padding-value)
+@each $key in getPaddingKeys(){ 
+
+  //$valor:nth($padding-value,$i+1); como he creado la funcion getPadding ya en esa funcion sumo 1 para que actue como si fuera el array
+  // xk el indice empieza en 1  y solo haría falta sumar la función 
+  $valor:getPadding($key);
+  .g--padding-#{$key} {
+    padding: $valor;
+  }
+  .g--padding-left-#{$key} {
+      padding-left: $valor;
+    }
+  .g--padding-right-#{$key} {
+      padding-right: $valor;
+    }
+  .g--padding-top-#{$key} {
+      padding-top: $valor;
+    }
+  .g--padding-bottom-#{$key} {
+      padding-bottom: $valor;
+    }
+  .g--padding-vertical-#{$key} {
+      padding-top:$valor;
+      padding-bottom: $valor;
+      /*padding: $valor 0px $valor 0px; arriba , derecha ,abajo y izquierda;
+      padding-top:$valor;
+      padding-bottom:$valor;
+      */
+    }
+  .g--padding-horizontal-#{$key} {
+     /* padding: 0px $valor; Así no estaría correcto porque le daria siempre el valor 0px al vertical y puede ser que tenga otro valor*/
+     padding-right:$valor;
+      padding-left: $valor;
+  }
+}
+
+
+

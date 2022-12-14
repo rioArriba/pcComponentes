@@ -1,0 +1,85 @@
+/*.l-main-page {
+    display: grid;
+    grid-template-areas:
+      "cabecera cabecera cabecera cabecera cabecera"
+      "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+      "pie pie pie pie pie";
+}
+
+.l-main-page__area-cabecera {
+    grid-area: cabecera;
+}
+
+.l-main-page__area-cuerpo {
+    grid-area: cuerpo;
+}
+
+.l-main-page__area-lateral-izquierdo {
+    grid-area: lateral-izquierdo;
+}
+
+.l-main-page__area-lateral-derecho {
+    grid-area: lateral-derecho;
+}
+
+.l-main-page__area-pie {
+    grid-area: pie;
+
+}
+//en el html
+/*
+<div class ="l-main-page">
+    <div class= l-main-page__area-cabecera">//dentro del div iria lo que sea solo es para colocarlo
+        <ul  class="c-menu">
+        <li class="c-menu__item"></li>
+        <li class="c-menu__item c-menu__item-right"></li>
+        <li class="c-menu__item"></li>
+        </ul>
+    </div>
+</div>
+
+*/
+
+/*
+
+.l-main-dolmen {
+    //  __
+    //  ||
+    display: grid;
+    grid-template-areas:
+      "arriba arriba"
+      "lateral-izquierdo lateral-derecho";
+}
+
+.l-dolmen__area-arriba{
+    grid-area:arriba;
+}
+.l-dolmen__area-izquierda{
+    grid-area:lateral-izquierdo;
+}
+.l-dolmen__area-derecha{
+    grid-area:lateral-derecho;
+}
+
+
+
+
+.l-productos{
+    display:flex;
+}
+
+.l-productos__area{
+    flex:1 1 auto;
+}
+
+
+
+.l-arriba-izquierda{
+    position:fixed;
+    top:0px;
+    
+}
+
+
+
+*/
