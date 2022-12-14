@@ -1,0 +1,27 @@
+
+							PROYECTO FINAL TIENDA-WEB
+
+
+
+1ºSPRINT
+
+Fecha entrega: jueves 22
+Solo html y CSS
+
+-PANTALLA DE INICIO(Modal):
+	.Categorias de los productos->LISTA DE PRODUCTOS(cartas de productos) ->Ver detalles del producto -> DETALLES PRODUCTO -> Boton añadir al carrito -> CARRITO
+				    					      ->Boton añadir al carrito -> CARRITO
+				    ->Botón carrito -> CARRITO
+
+-CARRITO(Modal):
+	.Botón confirmar carrito(guardará en la base de datos, login antes de guardar)->PAGAR (formulario de pago)
+
+-LOGIN(Modal):
+	.Boton listado de carritos -> LISTADO DE CARRITOS
+
+-PAGAR(Modal)(carrito confirmado antes de pagar):
+
+-LISTADO DE CARRITOS(Modal):
+	.Borrar
+	.Pagar
+	.Recuperar -> CARRITO
