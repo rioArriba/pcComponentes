@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/d313142d93.js" crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
 </head>
 <body>
     <nav>
@@ -19,12 +20,37 @@
             </ul>
         </div>
         <hr>
-        <div class="flex justify-between items-center">
-            <a href="s"><p class="pt-3 pb-3 pl-5 pr-5 rounded-md ml-40 hover:bg-slate-100"><i class="fa-solid fa-bars"></i> Todas las categorias</p></a>
+        <div class="flex justify-between items-center cursor-pointer">
+            <a id="c-barra"><p class="pt-3 pb-3 pl-5 pr-5 rounded-md ml-40 hover:bg-slate-100"><i class="fa-solid fa-bars"></i> Todas las categorias</p></a>
         </div>
         <hr>
+        <div class=" pl-5 pr-5 rounded-md ml-40 ">
+            <ul class ="c-nav">
+                <li><a href="">Ordenadores</a></li>
+                <li><a href="">Almacenamiento</a></li>
+                <li><a href="">Componentes</a></li>
+                <li><a href="">Audio,Video</a></li>
+            </ul>
+        </div>  
     </nav>
-    <main></main>
+    <main>
+        <section>
+            <article class="flex flex-row-reverse items-center p-5 pl-40 pr-60 ">
+                <div class="text-right w-1/2">
+                    <h1 class="text-4xl">Compra la tecnologia que ayuda al medioambiante</h1>
+                    <p class="my-5 mb-7 text-l">
+                        Nuestra tienda contiene los productos que siempre has querido pero ahora de forma
+                        sostenible y ofreciendo el mismo rendimiento.
+                    </p>
+                    <a class="bg-emerald-700 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full" href="./saber_mas/masquemedallas.html">Saber más</a>
+                </div>
+                <div class="w-1/2">
+                    <img class="w-full" src="assets/refurbished.jpg" alt="Imagen prueba">
+                </div>
+            </article>
+        </section>
+        <hr>
+    </main>
     <footer></footer>
 </body>
 </html>

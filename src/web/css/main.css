@@ -512,3 +512,25 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.c-nav{
+  display: none;
+}
+.c-nav li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.c-nav > li {
+  float: inline-start;
+}
+
+.c-nav li a:hover {
+  background-color: rgb(241 245 249);
+}
+
+
+.c-nav li:hover > ul {
+  display: block;
+}
