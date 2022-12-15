@@ -1,9 +1,4 @@
-    {articulos :[
-        ordenador:[{portatil: [{["nombre" :"Lenovo V15 Intel Core i5-1135G7/8GB/256GB SSD/15.6"]},
-                                {"descripcion":[]}
-                    pc:[]]
-    ]
-}listaArticulos=[
+articulos=[
     {
     'id':'1',
     "nombre" :"Lenovo V15 Intel Core i5-1135G7/8GB/256GB SSD/15.6",
@@ -377,7 +372,5 @@
     'precio':39,
     'categoriaMadre': 'almacenamiento',
     'categoriaPropia' : 'memoria-usb'
-    }  
-    
-    
+    }    
 ]
