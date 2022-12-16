@@ -1,98 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Tech'n save</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/c041f72ed4.js" crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d313142d93.js" crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+</head>
 <body>
-  <div class="l-page">
-    <div class="l-page__header">
-      <div class=" c-header__logo"><img src="./assets/img/icono__carrito--v2.png" alt="images" width="35px"></div>
-      <div class=" c-header__item"><button><i class="fa-regular fa-user"></i> Mi cuenta</button>
-      <button><img src="./assets/img/icono__carrito--v2.png" alt="images" width="20px"> Mi Cesta</button></div>
-
-    </div>
-<hr>
-  <div class="l-page__menu">
-    <div class="c-menu">
-    <div class="c-menu__item">
-    <i class="fa-solid fa-bars fa-xl" id="c-barra"></i>
-    </div>
-    <ul class ="c-nav">
-        <li><a href="">Ordenadores</a>
-          <ul>
-            <li><a href="">Portatiles</a></li>
-            <li><a href="">PC</a></li>
-          </ul>
-        </li>
-        <li><a href="">Almacenamiento</a>
-          <ul>
-            <li><a href="">Memorias USB</a></li>
-            <li><a href="">Disco duro externo</a></li>
-          </ul>
-        </li>
-        <li><a href="">Componentes</a>
-          <ul>
-           <li><a href="">Placas base</a></li>
-           <li><a href="">Procesador</a></li>
-           <li><a href="">Discos duro</a></li>
-           <li><a href="">Tarjetas gráfica</a>
-           <li><a href="">RAM</a>
-            <!-- <ul>
-              <li><a href="">Submenu1</a></li>
-              <li><a href="">Submenu2</a></li>
-              <li><a href="">Submenu3</a></li>
-              <li><a href="">Submenu4</a></li>
-            </ul>--> 
-            </li>
-          </ul>
-        </li>
-        <li><a href="">Audio,Video</a>
-          <ul>
-            <li><a href="">Monitores</a></li>
-            <li><a href="">Proyectores</a></li>
-            <li><a href="">TV</a></li>
-            <li><a href="">Impresoras</a></li>
-            <li><a href="">Micrófonos</a></li>
-            <li><a href="">Altavoces</a></li>
-          </ul>
-        </li>
-  </ul>
-  </div>
-
-  <div class="l-page__body">
-  <h2>Aqui irá el body</h2>
-  </div>
-
-  </div>
-
-  <div class="l-page__footer">
-    <div>
-     <b>Quiénes somos</b>
-     <ul>
-       <li><a href="">Quiénes somos</a></li>
-       <li><a href="">Aviso Legal</a></li>
-       <li><a href="">Privacidad</a></li>
-     </ul>
-   </div>
-   <div>
-     <b>Contactar</b>
-      <ul>
-      <li><a href="">Contacto</a></li>
-      <li><a href="">Política de cookies</a></li>
-      </ul>
-   </div>
-   <div>
-     <b>Otros</b>
-     <ul>
-     <li><a href="">Servicio de reparación</a></li>
-     <li><a href="">Responsabilidad social</a></li>
-     </ul>
-
-    </div>
-    <div>
-      <img src="./assets/img/green.png" alt="images" width="60px">
-    </div>
-
-  </div>
-</div>
-</body></html>
+    <nav>
+        <div class="p-5 pl-40 pr-60 flex justify-between items-center">
+            <img src="assets/logo.png" width="200" alt="">
+            <ul class="flex gap-x-10 text-black-700 items-center">
+                <li class="hover:text-teal-900"><a href="#"><i class="fa-solid fa-user mr-3"></i>Mi cuenta</a></li>
+                <li><a href="#"><img src="assets/carrito.png" class="w-10" onclick="pulsaCarrito()"/></a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="flex justify-between items-center cursor-pointer">
+            <a id="c-barra"><p class="pt-3 pb-3 pl-5 pr-5 rounded-md ml-40 hover:bg-slate-100"><i class="fa-solid fa-bars"></i> Todas las categorias</p></a>
+        </div>
+        <hr>
+        <div class=" pl-5 pr-5 rounded-md ml-40 ">
+            <ul class ="c-nav bg-white">
+                <li><a href="">Ordenadores</a></li>
+                <li><a href="">Almacenamiento</a></li>
+                <li><a href="">Componentes</a></li>
+                <li><a href="">Audio,Video</a></li>
+            </ul>
+        </div>  
+    </nav>
+    <main>
+        <section>
+            <article class="flex flex-row-reverse items-center p-5 pl-40 pr-60 ">
+                <div class="text-right w-1/2">
+                    <h1 class="text-4xl">Compra la tecnologia que ayuda al medioambiante</h1>
+                    <p class="my-5 mb-7 text-l">
+                        Nuestra tienda contiene los productos que siempre has querido pero ahora de forma
+                        sostenible y ofreciendo el mismo rendimiento.
+                    </p>
+                    <a class="bg-emerald-700 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full" href="./saber_mas/masquemedallas.html">Saber más</a>
+                </div>
+                <div class="w-1/2">
+                    <img class="w-full" src="assets/refurbished.jpg" alt="Imagen prueba">
+                </div>
+            </article>
+        </section>
+        <hr>
+    </main>
+    <dialog id="miCarrito" class="rounded w-6/12 h-3/6 bg-slate-50">
+		<div id="carritoHead" class="flex">
+            <img src="assets/carrito.png" class="w-7"/>
+			<h2 class="text-lg" > <b>Carrito  </b><span id="idPedido"></span><h2>
+		</div>
+		<div id="carritoContent">
+		</div>
+		<div id="carritoFooter">
+			<h3 class="">Total: <span id="total"></span></h3>
+		</div>
+		<div class="">
+			<button id="btnCierraCarrito" class="bg-emerald-700 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full">Seguir comprando</button>
+			<button id="btnEfectuaPedido"class="bg-teal-700 hover:bg-teal-600 text-white font-bold py-4 px-8 rounded-full">Realizar pedido</button>
+		</div>
+	</dialog>
+    <footer class="p-5 pl-40 pr-60 flex justify-between items-center">
+        <div>
+            <b>Quiénes somos</b>
+            <ul>
+              <li><a href="">Quiénes somos</a></li>
+              <li><a href="">Aviso Legal</a></li>
+              <li><a href="">Privacidad</a></li>
+            </ul>
+          </div>
+          <div>
+            <b>Contactar</b>
+             <ul>
+             <li><a href="">Contacto</a></li>
+             <li><a href="">Política de cookies</a></li>
+             </ul>
+          </div>
+          <div>
+            <b>Otros</b>
+            <ul>
+            <li><a href="">Servicio de reparación</a></li>
+            <li><a href="">Responsabilidad social</a></li>
+            </ul>
+       
+           </div>
+           <div>
+             <img src="./assets/green.png" alt="images" width="60px">
+           </div>
+    </footer>
+</body>
+</html>

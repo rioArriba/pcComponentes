@@ -1,8 +1,0 @@
-@each $key in getShadowKeys(){
-    //$valor:nth($shadow-value,$i+1);
-   
-    .g--shadow-#{$key} {
-     @include shadow($key);
-      }
-      
-    }
